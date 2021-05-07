@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
 		exit(1);
 	}
 
-	if ((fd=open(argv[1], O_RDONLY))==-1){
+	if ((fd=open(argv[1], O_RDONLY))==-1){ //읽기모드
 		perror(argv[1]);
 		exit(2);
 	}
