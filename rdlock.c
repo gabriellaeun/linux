@@ -4,7 +4,7 @@
 #include <fcntl.h>
 #include "student.h"
 
-/* 잠금을 이용한 학생 데이터베이스 질의 프로그램*/
+/* 잠금 이용 학생 데이터베이스 질의 프로그램*/
 int main(int argc, char *argv[]){
 	int fd, id;
 	struct student rec;
